@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: #1e1e1e;
+    color: white;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #1da1f2;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #1da1f2;
+}
+
+.icon i {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+}
+
+.hero img {
+    width: 520px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: gold;
+    font-weight: bold;
+}
+
+.hero button {
+    padding: 14px 35px;
+    background: #00bfff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.category {
+    padding: 121px;
+}
+
+.category h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card i {
+    font-size: 45px;
+    color: #1da1f2;
+    margin-bottom: 20px;
+}
+
+.products {
+    padding: 60px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+}
+
+.product img {
+    width: 220px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 22px;
+    color: #1da1f2;
+    margin-bottom: 20px;
+}
+
+.product button {
+    padding: 12px 25px;
+    background: #1da1f2;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
